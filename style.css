@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+
+/* Style for the "intro" section */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.name {
+    flex: 1;
+}
+
+.name h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.name p {
+    font-size: 18px;
+    color: #777;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-height: 300px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the button container */
+.get{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button a {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #007BFF;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button a:hover{
+    background-color: #0056b3;
+}
+
+/* features section */
+
+#features {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature img {
+    max-width: 100%;
+    max-height: 400px ;
+    height: auto;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+/* Style for the "about" section */
+#about {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+/* Style for the "about-story" container */
+.about-story {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for the "Read more" link */
+.read-more {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+/* Hide additional paragraphs by default */
+.additional-paragraphs {
+    display: none;
+}
+
+.links h3{
+    margin-left: 10px;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual{
+    margin: 20px;
+}
+
+.individual ul {
+    list-style-type: none;
+}
+
+.individualul li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.individual ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+.git{
+    display: flex;
+    justify-content: center;
+}

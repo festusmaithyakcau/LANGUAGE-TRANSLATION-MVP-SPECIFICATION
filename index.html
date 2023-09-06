@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/840b950622.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <a href="login.html" class="btn">Login</a>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Intoduction -->
+        <div class="intro">
+            <div class="name">
+                <h1>Language Translation</h1>
+                <p> Breaking down barriers and connecting the world</p>
+            </div>
+            <div class="image">
+                <img src="/images/langtrans2.jpg" alt="/images/langtrans1.jpg">
+            </div>
+        </div>
+        <div class="get">
+            <button><a href="translation.html">Get Started</a> </button>
+        </div>
+    </header>
+    <main>
+        <!-- Feature section -->
+    <section id="features">
+        <h1>Features</h1>
+        <!-- Feature 1 -->
+        <div class="feature">
+            <img src="/images/backgound1.jpg">
+            <h2>Translation Services</h2>
+            <p>Easily translate text from one language to another with our advanced translation algorithms.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature">
+            <img src="/images/backgound1.jpg">
+            <h2>Language Detection</h2>
+            <p>Our AI-powered tool can automatically detect the language of input text, saving you time.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature">
+            <img src="/images/langtrans1.jpg">
+            <h2>Multiple Output Formats</h2>
+            <p>Get translations in various formats, including text, audio, and subtitles, as per your needs.</p>
+        </div>
+    </section>
+        <h1>About</h1>
+        <section id="about">
+            <div class="about-story">
+                <h2>Introduction</h2>
+               <!-- Add this inside the "about-story" div -->
+                <p><span id="intro">We are three individuals who experienced childhood in a multicultural nation and each has an
+                     alternate primary language. Notwithstanding, it was an occasion that united individuals from everywhere the world 
+                     and touched off our common energy for separating language boundaries. </span>
+                     <span class="read-more" onclick="toggleVisibility('intro', 'additional-paragraphs')">Read more...</span></p>
+                <div class="additional-paragraphs">
+                    <!-- Additional paragraphs go here -->
+                    <h2>The Spark</h2>
+                    <p>At this occasion, we experienced issues speaking with non-English speakers. This horrendous language obstruction experience was a defining moment for us all.</p>
+                    <h2>The Epiphany</h2>
+                    <p>We understand that language isn't just a method for correspondence yet additionally an extension to comprehend and interface with individuals from varying backgrounds. Together, we needed to make an answer that makes this language more open and advances intercultural understanding.</p>
+                    <h2>Project's Birth</h2>
+                    <p>At the point when we began our venture project for Holberton, we began exploring language interpretation devices. We imagined a help that deciphers words, yet in addition catches social subtleties, making it simpler for individuals to interface and see one another. We chose to consolidate our special abilities and experience to make this vision a reality.</p>
+                    <h2>Conclusion</h2>
+                    <p>This task is our cooperative work to separate language splits and cultivate associations between individuals. It is a celebration of the power of language and its capacity to unite people regardless of their language or origin.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <h3>Connect with our team members</h3>
+                <div class="members">
+                    <div class="individual">
+                        <h4>Festus Maithya</h4>
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-github"></i>Github</a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                            </ul>
+                    </div>
+                    <div class="individual">
+                        <h4>Marion Oketcha</h4>
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-github"></i>Github</a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin"></i>Linked In</a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                            </ul>
+                    </div>
+                    <div class="individual">
+                        <h4>Lydiah Kiboi</h4>
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-github"></i>Github</a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="git">
+                    <a href=""><i class="fa-brands fa-github"></i>Github Repository</a>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <script>
+        let additionalParagraphsVisible = false;
+
+        function toggleVisibility() {
+            const additionalParagraphs = document.querySelectorAll('.additional-paragraphs');
+            additionalParagraphsVisible = !additionalParagraphsVisible;
+
+            additionalParagraphs.forEach(paragraph => {
+                paragraph.style.display = additionalParagraphsVisible ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
