@@ -1,22 +1,24 @@
 # LANGUAGE-TRANSLATION-MVP-SPECIFICATION
 **ALX MVP PROJECT**
-#Project Description
+
+
+## Project Description
 
 
 
 
-#Tech Stack Used
+## Tech Stack Used
 
 
 
-#Project Preview
+## Project Preview
 
 
 
-#Project Deployment
+## Project Deployment
 
 
-#Live Demo
+## Live Demo
 
 
 
