@@ -1,4 +1,4 @@
-// Getting all the data element
+// Accessing and declaring all the data elements from the main html file
 const timeElement = document.getElementById('time');
 const dateElement = document.getElementById('date');
 const currentWeatherItemsEl = document.getElementById('current-weather-items');
@@ -11,10 +11,10 @@ const currentTempEl = document.getElementById('current-temp');
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-// Declaring API_KE
+// Declaring API_KEY
 const API_KEY ='49cc8c821cd2aff9af04c9f98c36eb74';
 
-// Function to get weather data and access current location of user
+// Function to get weather data and accessing  user's current location
 setInterval(() => {
     const time = new Date();
     const month = time.getMonth();
@@ -47,7 +47,7 @@ function getWeatherData () {
     })
 }
 
-// Updating current fore-cast of location
+// Updating current weather fore-cast of user's location
 function showWeatherData (data){
     let {humidity, pressure, sunrise, sunset, wind_speed} = data.current;
 
@@ -111,7 +111,7 @@ function showWeatherData (data){
 
 
 
-// Load the Google Translate API and initialize the translation widget
+// Loading the Google Translate API and initializing the translation widget for enhancing language translation
 function loadGoogleTranslate() {
     const script = document.createElement('script');
     script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
@@ -119,7 +119,7 @@ function loadGoogleTranslate() {
     document.head.appendChild(script);
 }
 
-// Initialize the translation widget when the API script is loaded
+// Initializing the translation widget when the API script is loaded
 function googleTranslateElementInit() {
     new google.translate.TranslateElement(
         { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
@@ -127,5 +127,5 @@ function googleTranslateElementInit() {
     );
 }
 
-// Add an event listener to load Google Translate when the page is fully loaded
+// Adding an event listener to load Google Translate when the page is fully loaded.
 window.addEventListener('load', loadGoogleTranslate);
