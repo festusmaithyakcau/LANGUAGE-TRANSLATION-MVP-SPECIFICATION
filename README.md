@@ -7,4 +7,4 @@ ALX MVP PROJECT
 
 * **Festus Maithya** [festusmaithyakcau](https://github.com/festusmaithyakcau)
 * **Marion Christine**[Marion Oketcha](https://github.com/MARIONCHRISTINE)
-* **Lydia Kiboi**
+* **Lydia Kiboi**[Lydiah Njambi](https://github.com/Lydiah6470)
