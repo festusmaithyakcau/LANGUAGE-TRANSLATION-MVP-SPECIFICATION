@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Issue will be dealt with ASAP, don't worry!!"
+        pr-message: "A milestone to be a pull shark, thats cool!!"
