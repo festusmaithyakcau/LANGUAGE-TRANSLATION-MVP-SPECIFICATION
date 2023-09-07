@@ -35,7 +35,7 @@ setInterval(() => {
 getWeatherData()
 function getWeatherData () {
     navigator.geolocation.getCurrentPosition((success) => {
-        
+
         let {latitude, longitude } = success.coords;
 
         fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=hourly,minutely&units=metric&appid=${API_KEY}`).then(res => res.json()).then(data => {
@@ -54,7 +54,7 @@ function showWeatherData (data){
     timezone.innerHTML = data.timezone;
     countryEl.innerHTML = data.lat + 'N ' + data.lon+'E'
 
-    currentWeatherItemsEl.innerHTML = 
+    currentWeatherItemsEl.innerHTML =
     `<div class="weather-item">
         <div>Humidity</div>
         <div>${humidity}%</div>
@@ -75,8 +75,8 @@ function showWeatherData (data){
         <div>Sunset</div>
         <div>${window.moment(sunset*1000).format('HH:mm a')}</div>
     </div>
-    
-    
+
+
     `;
 
     let otherDayForcast = ''
@@ -89,7 +89,7 @@ function showWeatherData (data){
                 <div class="temp">Night - ${day.temp.night}&#176;C</div>
                 <div class="temp">Day - ${day.temp.day}&#176;C</div>
             </div>
-            
+
             `
         }else{
             otherDayForcast += `
@@ -99,7 +99,7 @@ function showWeatherData (data){
                 <div class="temp">Night - ${day.temp.night}&#176;C</div>
                 <div class="temp">Day - ${day.temp.day}&#176;C</div>
             </div>
-            
+
             `
         }
     })

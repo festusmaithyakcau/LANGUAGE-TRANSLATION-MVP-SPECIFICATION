@@ -72,6 +72,18 @@ body{
     justify-content: space-between;
 }
 
+.log-out button{
+    background-color: green;
+    border-radius: 6px;
+    height: 35px;
+    width: 100px;
+}
+
+.log-out button a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
 
 .future-forecast{
     background: rgba(3, 3, 75, 0.8);
@@ -148,11 +160,11 @@ body{
 
 
 @media only screen and  (max-width:730px){
-    
+
     .container{
         padding: 20px;
     }
-    
+
     .future-forecast{
         justify-content: start;
         align-items: none;
