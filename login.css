@@ -13,7 +13,7 @@
 body
 {
     font-family: "Raleway",sans-serif;
-    background-image: url(backgound1.jpg);
+    background-image: url("images/backgound1.jpg");
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -102,4 +102,16 @@ body
     border-radius: 3px;
     border: 1px solid #EF9A9A;
     display: none;
+}
+
+.glass{
+    background-color: rgba(255, 255, 255, 0.433);
+    border-radius: 15px;
+    max-width: 400px;
+    display: flex;
+    max-height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: inset;
 }

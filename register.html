@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div class="glass">
     <div class="container">
-        <h1 class="label">User Login</h1>
+        <h1 class="label">User Registration</h1>
         <form class="login_form" action="login.html" method="post" name="form" onsubmit="return validated()">
             <div class="font">Email or Phone</div>
             <input autocomplete="off" type="text" name="email">
@@ -17,8 +18,9 @@
                         <input type="password" name="password">
                     <div id="pass_error">Please fill up your Password</div>
                     <button type="Submit"><a href="login.html">Register</button>
-                </form>
-            </div>
+        </form>
+    </div>
+    </div>
             <script>
                 var email = document.forms['form']['email'];
                 var password = document.forms['form']['password'];
