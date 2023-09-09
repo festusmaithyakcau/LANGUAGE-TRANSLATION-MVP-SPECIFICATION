@@ -9,6 +9,13 @@
 
 ## Tech Stack Used
 
+**Programming Languages**
+  - HTML
+  - CSS
+  - JAVASCRIPT
+**APIs**
+  - Google Translate API
+  - OpenWeather API
 
 
 ## Project Preview
