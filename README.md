@@ -5,7 +5,8 @@
 ## Project Description
 
 
-[![CodeQL](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/codeql.yml/badge.svg)](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/codeql.yml)[![Greetings](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/greetings.yml/badge.svg)](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/greetings.yml)
+[![CodeQL](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/codeql.yml/badge.svg)](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/codeql.yml)
+[![Greetings](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/greetings.yml/badge.svg)](https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION/actions/workflows/greetings.yml)
 
 ## Tech Stack Used
 
